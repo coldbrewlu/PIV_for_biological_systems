@@ -1,19 +1,27 @@
 # PIV_for_mechanobiology
-This algorithm utilises openPIV python package for analysing the collective movements of particles in biological systems, such as granuloma cells in a follicle.
+## PIV Algorithm Overview
 
-PIV_main.ipynb contains code for generating:
-(a) velocity field video;
-(b) velocity distribution histogram.
+This algorithm **utilises openPIV** Python package for **analysing** the collective movements of particles in biological systems.
 
-The folder imageJ_macro_code contains macro code that performs the following function:
-(a) auto brightness & contrast;
-(b) brightness adjustment;
-(c) adjust contrast and despeckle;
-(d) cropping images;
-(e) FFT bandpass filter;
-(f) combine image sequence into stack.
+### PIV Main Script
 
-To run the code, download the code from the repository and run it on any IDE that supports ipynb files.
+[`PIV_main.ipynb`](#) contains code for generating:
+- (a) velocity field video;
+- (b) velocity distribution histogram.
+
+### ImageJ Macro Code
+
+The folder `imageJ_macro_code` contains macro code that performs the following functions:
+- (a) auto brightness & contrast;
+- (b) brightness adjustment;
+- (c) adjust contrast and despeckle;
+- (d) cropping images;
+- (e) FFT bandpass filter;
+- (f) combine image sequence into **stack**.
+
+### Running the Code
+
+To run the code, download the repository and run it on any IDE that supports `.ipynb` files.
 
 
 
